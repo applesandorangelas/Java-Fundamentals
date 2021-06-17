@@ -24,6 +24,10 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
+        int hours = 24*days;
+        int minutes = 60*hours;
+        int seconds = 60*minutes;
+        System.out.println("That is the equivalent of " +seconds + "seconds.");
 
     }
 }

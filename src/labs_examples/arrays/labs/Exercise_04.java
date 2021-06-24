@@ -9,5 +9,16 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
 
+        int[][] irregularArray = {{1, 2, 3}, {4, 5}, {6}
+        };
+
+        for (int i = 0; i< irregularArray.length; i+=1){
+            for (int j = 0; j<irregularArray[i].length; j+=1){
+                System.out.print(irregularArray[i][j]+ " " );
+            }
+            System.out.print('\n');
+        }
+    }
 }
